@@ -1,4 +1,4 @@
-public class Shape implements GeometricObjects{
+public abstract class Shape implements GeometricObjects{
 
     private String name;
     public void printFigureName() {
