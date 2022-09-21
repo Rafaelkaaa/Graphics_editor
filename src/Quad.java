@@ -1,5 +1,6 @@
 public class Quad extends Shape {
-    public Quad() {
-        setName("Quad");
+    @Override
+    public void printFigureName() {
+        System.out.println("Quad");
     }
 }

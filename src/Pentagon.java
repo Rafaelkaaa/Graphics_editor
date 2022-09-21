@@ -1,5 +1,6 @@
 public class Pentagon extends Shape {
-    public Pentagon() {
-        setName("Pentagon");
+    @Override
+    public void printFigureName() {
+        System.out.println("Pentagon");
     }
 }

@@ -1,5 +1,6 @@
 public class Oval extends Shape {
-    public Oval() {
-        setName("Oval");
+    @Override
+    public void printFigureName() {
+        System.out.println("Oval");
     }
 }

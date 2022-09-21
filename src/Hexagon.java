@@ -1,5 +1,6 @@
 public class Hexagon extends Shape {
-    public Hexagon() {
-        setName("Hexagon");
+    @Override
+    public void printFigureName() {
+        System.out.println("Hexagon");
     }
 }
